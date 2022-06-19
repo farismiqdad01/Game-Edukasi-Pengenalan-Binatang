@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class MainMenuAnimations : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Referensi komponen
+    [SerializeField] Animator animator;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        animator = GetComponent<Animator>();
+    }
+    public void OpenEnsiklopedia()
+    {
+        animator.Play("OpenEnsiklopedia");
     }
 }
