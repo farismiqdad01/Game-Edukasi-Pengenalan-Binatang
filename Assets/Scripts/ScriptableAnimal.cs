@@ -7,7 +7,8 @@ public class ScriptableAnimal : ScriptableObject
 {
     public string animalName;
     public Sprite animalImage;
+    public Sprite animalSiluet;
     public AudioClip animalSound;
-    public string animalDescription;
+    [TextArea] public string animalDescription;
 
 }

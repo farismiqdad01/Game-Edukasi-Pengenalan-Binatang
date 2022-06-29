@@ -16,9 +16,10 @@ public class MainMenuManager : MonoBehaviour
     {
         Application.Quit();
     }
-    public void OpenEnsiklopedia()
+    private void Start()
     {
-        mainMenu.SetActive(false);
-        ensiklopedia.SetActive(true);
+        Application.targetFrameRate = 60;
+        Application.runInBackground = true;
+        QualitySettings.vSyncCount = 1;
     }
 }
