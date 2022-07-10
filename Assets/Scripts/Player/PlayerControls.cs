@@ -78,6 +78,7 @@ public class PlayerControls : MonoBehaviour
         {
             rb.AddForce(Vector2.up * 15, ForceMode2D.Impulse);
             anim.SetTrigger("jump");
+            AudioManager.instance.PlayerJump();
         }
     }
 

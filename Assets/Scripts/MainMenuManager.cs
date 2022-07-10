@@ -21,5 +21,6 @@ public class MainMenuManager : MonoBehaviour
         Application.targetFrameRate = 60;
         Application.runInBackground = true;
         QualitySettings.vSyncCount = 1;
+        Time.timeScale = 1;
     }
 }

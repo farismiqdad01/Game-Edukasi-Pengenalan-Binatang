@@ -9,9 +9,19 @@ public class AnimalProfile : MonoBehaviour
 
     //referensi component
     [SerializeField] Image animalImage;
+    SpriteRenderer animalSprite;
     [SerializeField] TMPro.TextMeshProUGUI animalName;
     private void Start()
     {
-
+        animalSprite = GetComponent<SpriteRenderer>();
+        if (animalSprite != null)
+        {
+            animalSprite.sprite = animal.animalSiluet;
+        }
+        else if (animal.caught == true)
+        {
+            animalName.text = animal.animalName;
+            animalImage.sprite = animal.animalImage;
+        }
     }
 }

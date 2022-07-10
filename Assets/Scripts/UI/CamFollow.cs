@@ -10,9 +10,9 @@ using UnityEngine;
 public class CamFollow : MonoBehaviour
 {
     [SerializeField] Transform target;
-    [SerializeField] Vector3 offset = new Vector3(0, 0, -10);
+    [SerializeField] Vector3 offset = new Vector3(0, 2f, -10);
 
-    [Range(0, 10)] public float smoothSpeed;
+    [Range(0, 10)] public float smoothSpeed = 1.8f;
     private void Start()
     {
     }
