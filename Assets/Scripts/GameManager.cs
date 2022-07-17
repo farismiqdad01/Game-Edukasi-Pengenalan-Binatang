@@ -2,16 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    int animalsOnThisScene = 0;
 
     //variable player
     [HideInInspector] public int points;
-
-    [Header("GameObjects")]
+    [Header("Player")]
+    [SerializeField] GameObject playerPrefab;
+    [Header("Panel")]
     [SerializeField] GameObject pausePanel;
+    [SerializeField] GameObject gameOverPanel;
+    [SerializeField] GameObject animalPrefab;
+    [SerializeField] TextMeshProUGUI animalsCountText;
     private void Awake()
     {
         if (instance != null)
@@ -27,6 +33,9 @@ public class GameManager : MonoBehaviour
     {
         points = 0;
         Time.timeScale = 1;
+        GameObject[] animals = GameObject.FindGameObjectsWithTag("Animal");
+        animalsOnThisScene = animals.Length;
+        animalsCountText.text = animalsOnThisScene.ToString();
     }
 
     // Update is called once per frame
@@ -34,6 +43,11 @@ public class GameManager : MonoBehaviour
     {
 
     }
+    // public void GameReset()
+    // {
+
+    //     Instantiate(playerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+    // }
     public void PauseGame()
     {
         pausePanel.SetActive(true);

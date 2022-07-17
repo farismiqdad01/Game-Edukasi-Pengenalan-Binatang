@@ -288,7 +288,19 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Gurun
+          m_StringArgument: Hutan
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &5909587304188913250
@@ -316,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38e633ccd060aae40ae10dea3a8cb192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ekosistem: {fileID: 0}
+  ekosistem: {fileID: 11400000, guid: 89df1e72955961746b961cdb2dd4ae7a, type: 2}
   spriteRenderer: {fileID: 6038326335062445524}
   textMeshPro: {fileID: 6038326336404299372}
 --- !u!1 &6038326336404299374

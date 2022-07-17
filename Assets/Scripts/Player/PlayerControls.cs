@@ -66,6 +66,7 @@ public class PlayerControls : MonoBehaviour
             sr.flipX = move.x < 0;
         }
         anim.SetBool("run", move.x != 0);
+        // AudioManager.instance.Walk();
         rb.velocity = new Vector2(move.x * moveSpeed, rb.velocity.y);
     }
     /// <summary>
@@ -89,5 +90,13 @@ public class PlayerControls : MonoBehaviour
     {
         Vector2 size = new Vector2(col.bounds.size.x / 5, col.bounds.size.y);
         return Physics2D.BoxCast(col.bounds.center, size, 0f, Vector2.down, 0.1f, LayerMask.GetMask("Ground"));
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Spike")
+        {
+            this.gameObject.transform.position = new Vector3(0, 0, 0);
+        }
     }
 }

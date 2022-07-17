@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6074974647156878222}
   m_Layer: 0
   m_Name: Animal
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animal: {fileID: 11400000, guid: c710453a5a6282c4c8888fff8ad39517, type: 2}
+  animalImage: {fileID: 0}
+  animalName: {fileID: 0}
 --- !u!61 &6074974647156878221
 BoxCollider2D:
   m_ObjectHideFlags: 0
