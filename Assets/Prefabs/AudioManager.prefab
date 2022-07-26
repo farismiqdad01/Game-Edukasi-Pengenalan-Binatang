@@ -46,12 +46,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonClick: {fileID: 8300000, guid: 1625d6c305eebbf4aa9c365b37b731a0, type: 3}
-  backsoundMenu: {fileID: 0}
-  backsoundGame: {fileID: 0}
-  jump: {fileID: 8300000, guid: a48cac137b4c8f7449808294c424f310, type: 3}
   point: {fileID: 8300000, guid: 19da38d735b782b4a87efde87a3d9538, type: 3}
   openPuzzle: {fileID: 0}
+  jump: {fileID: 8300000, guid: a48cac137b4c8f7449808294c424f310, type: 3}
   walk: {fileID: 0}
+  win: {fileID: 8300000, guid: 2629a9df31040384d9e382d012377007, type: 3}
+  lose: {fileID: 8300000, guid: 140162563ae6eb341bdcd6394ada40a0, type: 3}
 --- !u!82 &2340728399804238670
 AudioSource:
   m_ObjectHideFlags: 0

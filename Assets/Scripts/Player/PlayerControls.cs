@@ -5,6 +5,7 @@ using Player;
 
 public class PlayerControls : MonoBehaviour
 {
+    Vector3 startPosition;
     //referensi component player
     Animator anim;
     PlayerInput input;
@@ -28,6 +29,7 @@ public class PlayerControls : MonoBehaviour
 
     void Start()
     {
+        startPosition = transform.position;
         // mengambil component yang diperlukan
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -77,7 +79,7 @@ public class PlayerControls : MonoBehaviour
     {
         if (IsGrounded() && jump)
         {
-            rb.AddForce(Vector2.up * 15, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * 20, ForceMode2D.Impulse);
             anim.SetTrigger("jump");
             AudioManager.instance.PlayerJump();
         }
@@ -94,9 +96,10 @@ public class PlayerControls : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+
         if (other.gameObject.tag == "Spike")
         {
-            this.gameObject.transform.position = new Vector3(0, 0, 0);
+            this.gameObject.transform.position = startPosition;
         }
     }
 }

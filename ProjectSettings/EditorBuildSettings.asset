@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hutan.unity
     guid: 88ca1b34db12b354ba168c2a1dd2d735
+  - enabled: 1
+    path: Assets/Scenes/Quiz2.unity
+    guid: f2830ac965a4a864c85460ab9fdacfc4
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: ecadfffa4df609b46a196f995dbc5e85
   m_configObjects: {}

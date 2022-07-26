@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d303922ea4a217f4cb6e4c8d87f65088
+guid: 7d6371c4680476740b83fa207df543e2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,10 +66,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 128
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Piece_0
+      name: light_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 245
-        width: 169
-        height: 223
+        x: 96
+        y: 89
+        width: 285
+        height: 495
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dc035558f08876488f1240e1e3cd277
-      internalID: -1337396100
+      spriteID: 251ebf449b5bd6a4384635249285cf2c
+      internalID: 867178445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Piece_1
+      name: light_1
       rect:
         serializedVersion: 2
-        x: 182
-        y: 289
-        width: 274
-        height: 172
+        x: 560
+        y: 94
+        width: 285
+        height: 495
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,50 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36b26a47029c6b748bccf9f85813d3c6
-      internalID: -225378462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Piece_2
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 51
-        width: 223
-        height: 172
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f51440f78c10270499b7e48a186e7090
-      internalID: 686016399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Piece_3
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 3
-        width: 172
-        height: 274
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98fa911ca4887c64083213c6b173cca4
-      internalID: 1286548748
+      spriteID: 6628468e290e3474a9bce0d5b19aa28f
+      internalID: -1091101947
       vertices: []
       indices: 
       edges: []
@@ -210,10 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Piece_0: -1337396100
-      Piece_3: 1286548748
-      Piece_2: 686016399
-      Piece_1: -225378462
+      light_1: -1091101947
+      light_0: 867178445
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

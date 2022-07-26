@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
     AudioSource audioSource;
-    [SerializeField] AudioClip buttonClick, backsoundMenu, backsoundGame, jump, point, openPuzzle, walk;
+    [SerializeField] AudioClip buttonClick, point, openPuzzle, jump, walk, win, lose;
     private void Awake()
     {
         if (instance != null)
@@ -16,7 +16,6 @@ public class AudioManager : MonoBehaviour
         else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
         }
     }
     // Start is called before the first frame update
@@ -27,10 +26,6 @@ public class AudioManager : MonoBehaviour
     public void PlayButtonClick()
     {
         audioSource.PlayOneShot(buttonClick);
-    }
-    public void PlayBacksoundMenu()
-    {
-        audioSource.PlayOneShot(backsoundMenu);
     }
     public void PlayerJump()
     {
@@ -45,5 +40,13 @@ public class AudioManager : MonoBehaviour
         audioSource.clip = walk;
         audioSource.Play();
         audioSource.loop = true;
+    }
+    public void Win()
+    {
+        audioSource.PlayOneShot(win);
+    }
+    public void Lose()
+    {
+        audioSource.PlayOneShot(lose);
     }
 }
