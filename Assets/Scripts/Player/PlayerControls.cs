@@ -79,7 +79,7 @@ public class PlayerControls : MonoBehaviour
     {
         if (IsGrounded() && jump)
         {
-            rb.AddForce(Vector2.up * 20, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * 15, ForceMode2D.Impulse);
             anim.SetTrigger("jump");
             AudioManager.instance.PlayerJump();
         }
