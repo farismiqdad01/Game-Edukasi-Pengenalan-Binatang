@@ -11,7 +11,7 @@ public class piceseScript : MonoBehaviour
     void Start()
     {
         RightPosition = transform.position;
-        transform.position = new Vector3(Random.Range(2f, 10f), Random.Range(3f, -3));
+        transform.position = new Vector3(Random.Range(2f, 8f), Random.Range(2.5f, -3));
     }
 
     void Update()
@@ -25,7 +25,7 @@ public class piceseScript : MonoBehaviour
                     transform.position = RightPosition;
                     InRightPosition = true;
                     GetComponent<SortingGroup>().sortingOrder = 0;
-                    Camera.main.GetComponent<DragAndDrop_>().PlacedPieces++;
+                    PuzzleManager.Instance.PlacedPieces++;
                 }
             }
         }

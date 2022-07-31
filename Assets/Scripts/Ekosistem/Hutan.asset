@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Hutan
   m_EditorClassIdentifier: 
   namaEkosistem: Hutan
-  spriteEkosistem: {fileID: 21300000, guid: 040190a06581edf47b3f0ff3e54d5325, type: 3}
+  spriteEkosistem: {fileID: 21300000, guid: dbf521962775d9147b70d59a9625f23c, type: 3}

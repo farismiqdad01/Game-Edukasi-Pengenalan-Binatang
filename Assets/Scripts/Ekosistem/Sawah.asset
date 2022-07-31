@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Sawah
   m_EditorClassIdentifier: 
   namaEkosistem: Sawah
-  spriteEkosistem: {fileID: 21300000, guid: a21fe024844c3ea4a9accee23db72967, type: 3}
+  spriteEkosistem: {fileID: 21300000, guid: c506a00323966a249bd15f61f56e22d4, type: 3}

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Kebun
   m_EditorClassIdentifier: 
   namaEkosistem: Kebun
-  spriteEkosistem: {fileID: 21300000, guid: f31523326ace6be42ae9c84f04ae0647, type: 3}
+  spriteEkosistem: {fileID: 21300000, guid: 6057660c7bae49d4980a32af0aff4d8e, type: 3}

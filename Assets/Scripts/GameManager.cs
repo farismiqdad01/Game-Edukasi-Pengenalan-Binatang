@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     int animalsOnThisScene = 0;
 
     //variable player
-    [HideInInspector] public int points;
+    public int points;
     [Header("Player")]
     [SerializeField] GameObject playerPrefab;
     [Header("Panel")]

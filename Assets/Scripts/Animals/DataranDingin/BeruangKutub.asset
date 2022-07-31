@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec923df18bf6f644be74caa09968821, type: 3}
+  m_Name: BeruangKutub
+  m_EditorClassIdentifier: 
+  caught: 0
+  animalName: Beruang Kutub
+  animalImage: {fileID: 21300000, guid: 20c579c69ffe4bf4eb6436fe01156b0d, type: 3}
+  animalSiluet: {fileID: 21300000, guid: 6d122e6915fbb5749a9e45ed7cbc8041, type: 3}
+  animalSound: {fileID: 0}
+  animalDescription: 

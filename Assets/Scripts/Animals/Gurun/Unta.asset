@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec923df18bf6f644be74caa09968821, type: 3}
   m_Name: Unta
   m_EditorClassIdentifier: 
+  caught: 0
   animalName: Unta
-  animalImage: {fileID: 21300000, guid: 4e876e174ae43704b83cc3f28e26a067, type: 3}
+  animalImage: {fileID: 21300000, guid: ace22fb23cf654341bd3439ff7983b87, type: 3}
   animalSiluet: {fileID: 21300000, guid: e99d3e0a3b974014d9a9481c99d3c6dc, type: 3}
   animalSound: {fileID: 0}
   animalDescription: 
