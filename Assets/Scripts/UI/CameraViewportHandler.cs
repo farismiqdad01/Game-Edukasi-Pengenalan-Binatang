@@ -1,7 +1,8 @@
 using UnityEngine;
+using Cinemachine;
 
 [ExecuteInEditMode]
-[RequireComponent(typeof(Camera))]
+[RequireComponent(typeof(CinemachineVirtualCamera))]
 public class CameraViewportHandler : MonoBehaviour
 {
     public enum Constraint { Landscape, Portrait }
@@ -11,7 +12,7 @@ public class CameraViewportHandler : MonoBehaviour
     public float UnitsSize = 1; // size of your scene in unity units
     public Constraint constraint = Constraint.Portrait;
     public static CameraViewportHandler Instance;
-    public new Camera camera;
+    public new CinemachineVirtualCamera camera;
 
     public bool executeInUpdate;
 
@@ -116,7 +117,7 @@ public class CameraViewportHandler : MonoBehaviour
     #region METHODS
     private void Awake()
     {
-        camera = GetComponent<Camera>();
+        camera = GetComponent<CinemachineVirtualCamera>();
         Instance = this;
         ComputeResolution();
     }
@@ -127,15 +128,15 @@ public class CameraViewportHandler : MonoBehaviour
 
         if (constraint == Constraint.Landscape)
         {
-            camera.orthographicSize = 1f / camera.aspect * UnitsSize / 2f;
+            camera.m_Lens.OrthographicSize = 1f / camera.m_Lens.Aspect * UnitsSize / 2f;
         }
         else
         {
-            camera.orthographicSize = UnitsSize / 2f;
+            camera.m_Lens.OrthographicSize = UnitsSize / 2f;
         }
 
-        _height = 2f * camera.orthographicSize;
-        _width = _height * camera.aspect;
+        _height = 2f * camera.m_Lens.OrthographicSize;
+        _width = _height * camera.m_Lens.Aspect;
 
         float cameraX, cameraY;
         cameraX = camera.transform.position.x;
@@ -176,15 +177,15 @@ public class CameraViewportHandler : MonoBehaviour
 
         Matrix4x4 temp = Gizmos.matrix;
         Gizmos.matrix = Matrix4x4.TRS(transform.position, transform.rotation, Vector3.one);
-        if (camera.orthographic)
+        if (camera.m_Lens.Orthographic)
         {
-            float spread = camera.farClipPlane - camera.nearClipPlane;
-            float center = (camera.farClipPlane + camera.nearClipPlane) * 0.5f;
-            Gizmos.DrawWireCube(new Vector3(0, 0, center), new Vector3(camera.orthographicSize * 2 * camera.aspect, camera.orthographicSize * 2, spread));
+            float spread = camera.m_Lens.FarClipPlane - camera.m_Lens.NearClipPlane;
+            float center = (camera.m_Lens.FarClipPlane + camera.m_Lens.NearClipPlane) * 0.5f;
+            Gizmos.DrawWireCube(new Vector3(0, 0, center), new Vector3(camera.m_Lens.OrthographicSize * 2 * camera.m_Lens.Aspect, camera.m_Lens.OrthographicSize * 2, spread));
         }
         else
         {
-            Gizmos.DrawFrustum(Vector3.zero, camera.fieldOfView, camera.farClipPlane, camera.nearClipPlane, camera.aspect);
+            Gizmos.DrawFrustum(Vector3.zero, camera.m_Lens.FieldOfView, camera.m_Lens.FarClipPlane, camera.m_Lens.NearClipPlane, camera.m_Lens.Aspect);
         }
         Gizmos.matrix = temp;
     }
