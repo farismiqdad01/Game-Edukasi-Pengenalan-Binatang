@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Hutan.unity
-    guid: 88ca1b34db12b354ba168c2a1dd2d735
+    path: Assets/Scenes/Gurun.unity
+    guid: aa059298a50cd5f40932b9abd37ee8ca
   - enabled: 1
     path: Assets/Scenes/Quiz2.unity
     guid: f2830ac965a4a864c85460ab9fdacfc4
