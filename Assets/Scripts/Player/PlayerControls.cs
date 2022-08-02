@@ -13,6 +13,8 @@ public class PlayerControls : MonoBehaviour
     SpriteRenderer sr;
     Collider2D col;
     [SerializeField] float moveSpeed = 5f;
+    [Header("Joystick")]
+    [SerializeField] FixedJoystick joystick;
     private void Awake()
     {
         input = new PlayerInput();
@@ -46,7 +48,16 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
         // mengubah animasi berdasarkan input
-        Move(input.Player.Move.ReadValue<Vector2>());
+
+        if (input.Player.Move.ReadValue<Vector2>() == Vector2.zero)
+        {
+            Move(joystick.Direction);
+        }
+        else
+        {
+            Move(input.Player.Move.ReadValue<Vector2>());
+        }
+
         if (rb.velocity.y < -0.1)
         {
             anim.SetBool("falling", true);
@@ -68,7 +79,6 @@ public class PlayerControls : MonoBehaviour
             sr.flipX = move.x < 0;
         }
         anim.SetBool("run", move.x != 0);
-        // AudioManager.instance.Walk();
         rb.velocity = new Vector2(move.x * moveSpeed, rb.velocity.y);
     }
     /// <summary>

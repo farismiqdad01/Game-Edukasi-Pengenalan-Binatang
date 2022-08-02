@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     int animalsOnThisScene = 0;
 
     //variable player
+    [Header("Point")]
+    [SerializeField] TextMeshProUGUI pointText;
     public int points;
     [Header("Player")]
     [SerializeField] GameObject playerPrefab;
@@ -43,7 +45,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        pointText.text = points.ToString();
     }
     // public void GameReset()
     // {
