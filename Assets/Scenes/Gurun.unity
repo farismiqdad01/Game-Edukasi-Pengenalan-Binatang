@@ -3408,7 +3408,7 @@ Tilemap:
       - {fileID: 1928802508, guid: 364289ac85eb62d498101e4b67c06f94, type: 3}
       - {fileID: -1800158394, guid: 364289ac85eb62d498101e4b67c06f94, type: 3}
       - {fileID: 1928802508, guid: 364289ac85eb62d498101e4b67c06f94, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 16, y: -12, z: 0}
@@ -3534,7 +3534,7 @@ Tilemap:
       - {fileID: 1928802508, guid: 364289ac85eb62d498101e4b67c06f94, type: 3}
       - {fileID: -1800158394, guid: 364289ac85eb62d498101e4b67c06f94, type: 3}
       - {fileID: 1928802508, guid: 364289ac85eb62d498101e4b67c06f94, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 64, y: -4, z: 0}
@@ -15462,14 +15462,14 @@ MonoBehaviour:
   m_Follow: {fileID: 1848746333}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5.3532777
+    OrthographicSize: 5.0691056
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0081155, y: 1}
+    m_SensorSize: {x: 2.1206896, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -15902,7 +15902,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.3532777
+  orthographic size: 5.0691056
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -22577,10 +22577,6 @@ PrefabInstance:
     - target: {fileID: 4165272630604362289, guid: c4dc5f563ac4a984098a9f6a44ef7dd1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4165272630604362290, guid: c4dc5f563ac4a984098a9f6a44ef7dd1, type: 3}
-      propertyPath: m_GravityScale
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4165272630604362293, guid: c4dc5f563ac4a984098a9f6a44ef7dd1, type: 3}
       propertyPath: m_Name
