@@ -7,6 +7,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public int unlockedLevel = 1;
     int animalsOnThisScene = 0;
 
     //variable player
