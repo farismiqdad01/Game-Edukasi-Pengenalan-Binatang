@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int unlockedLevel = 1;
+    [Header("Animals")]
+    public ScriptableAnimal animal;
     int animalsOnThisScene = 0;
 
     //variable player
@@ -21,6 +23,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOverPanel;
     [SerializeField] GameObject animalPrefab;
     [SerializeField] TextMeshProUGUI animalsCountText;
+    [Header("Puzzle")]
+    [SerializeField] GameObject[] disable;
     private void Awake()
     {
         if (instance != null)
@@ -30,6 +34,7 @@ public class GameManager : MonoBehaviour
         else
         {
             instance = this;
+            // DontDestroyOnLoad(gameObject);
         }
         Application.targetFrameRate = 60;
         QualitySettings.vSyncCount = 1;
@@ -48,11 +53,7 @@ public class GameManager : MonoBehaviour
     {
         pointText.text = points.ToString();
     }
-    // public void GameReset()
-    // {
 
-    //     Instantiate(playerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-    // }
     public void PauseGame()
     {
         pausePanel.SetActive(true);
@@ -66,5 +67,15 @@ public class GameManager : MonoBehaviour
     public void GotoMainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+    public void GotoPuzzle()
+    {
+        disable[0].SetActive(false);
+        disable[1].SetActive(false);
+    }
+    public void BacktoGame()
+    {
+        disable[0].SetActive(true);
+        disable[1].SetActive(true);
     }
 }

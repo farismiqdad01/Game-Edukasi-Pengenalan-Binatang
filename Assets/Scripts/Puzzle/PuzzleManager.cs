@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PuzzleManager : MonoBehaviour
 {
     public static PuzzleManager Instance;
-    public Sprite animalImagePuzzle;
+    [SerializeField] Sprite animalImagePuzzle;
 
     public GameObject EndMenu;
     public GameObject SelectedPiece;
@@ -18,6 +18,7 @@ public class PuzzleManager : MonoBehaviour
     }
     void Start()
     {
+        animalImagePuzzle = GameManager.instance.animal.animalImage;
         for (int i = 0; i < 24; i++)
         {
             GameObject.Find("Piece (" + i + ")").transform.Find("Puzzle").GetComponent<SpriteRenderer>().sprite = animalImagePuzzle;
@@ -58,6 +59,7 @@ public class PuzzleManager : MonoBehaviour
         if (PlacedPieces == 24)
         {
             EndMenu.SetActive(true);
+            GameManager.instance.animal.caught = true;
         }
     }
     public void NextLevel()
@@ -69,5 +71,10 @@ public class PuzzleManager : MonoBehaviour
     public void BacktoMenu()
     {
         SceneManager.LoadScene("Menu");
+    }
+    public void CloseScene()
+    {
+        SceneManager.UnloadSceneAsync("Puzzle");
+        GameManager.instance.BacktoGame();
     }
 }

@@ -11,7 +11,7 @@ public class piceseScript : MonoBehaviour
     void Start()
     {
         RightPosition = transform.position;
-        transform.position = new Vector3(Random.Range(2f, 8f), Random.Range(2.5f, -3));
+        transform.position = new Vector3(Random.Range(-73f, -65f), Random.Range(258f, 265f));
     }
 
     void Update()

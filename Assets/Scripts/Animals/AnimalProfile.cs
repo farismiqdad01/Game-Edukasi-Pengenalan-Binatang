@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class AnimalProfile : MonoBehaviour
 {
-    [SerializeField] ScriptableAnimal animal;
+    public ScriptableAnimal animal;
 
     //referensi component
     [SerializeField] Image animalImage;
-    SpriteRenderer animalSprite;
+    public SpriteRenderer animalSprite;
     [SerializeField] TMPro.TextMeshProUGUI animalName;
     private void Start()
     {

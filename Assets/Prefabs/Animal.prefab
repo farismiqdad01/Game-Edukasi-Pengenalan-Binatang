@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1755376342412427139
 RectTransform:
   m_ObjectHideFlags: 0
@@ -151,6 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animal: {fileID: 11400000, guid: 72c985a63b6b49e45b75838f326efb64, type: 2}
   animalImage: {fileID: 0}
+  animalSprite: {fileID: 0}
   animalName: {fileID: 0}
 --- !u!61 &6074974647156878221
 BoxCollider2D:
@@ -500,9 +501,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Helper, Assembly-CSharp
-        m_MethodName: UnlockHelper
+      - m_Target: {fileID: 6074974647156878223}
+        m_TargetAssemblyTypeName: AnimalsPuzzle, Assembly-CSharp
+        m_MethodName: EnterPuzzle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
