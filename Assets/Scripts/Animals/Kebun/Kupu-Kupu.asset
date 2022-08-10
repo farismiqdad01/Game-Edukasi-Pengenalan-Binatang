@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: Kupu-Kupu
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Kupu-Kupu
   animalImage: {fileID: 21300000, guid: f019fd076726a0448859bb6e7df4275b, type: 3}
   animalSiluet: {fileID: 21300000, guid: c35ebd2e72105c747a0d4b4b3c11e9c0, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 66e9533b77e181b4fa4f1bd6a8a9ec16, type: 3}
+  animalName: Kupu-Kupu
+  animalHabitat: Udara
+  animalMakanan: Nektivora
+  animalBerkembangbiak: Ovipar
+  animalPeringatan: Aman
+  animalDescription: "Bergerak :  Terbang\r\nFun Fact : Kupu kupu mencicipi makanan
+    menggunakan kakinya.\r"

@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: Capung
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Capung
   animalImage: {fileID: 21300000, guid: e5b37c776b0d0e04a8e56a2373bca6d5, type: 3}
   animalSiluet: {fileID: 21300000, guid: a6996bb902fdee048affb8906e2ef217, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: ad66a21a380c99f4ebd35b38eae36d60, type: 3}
+  animalName: Capung
+  animalHabitat: Udara
+  animalMakanan: Karnivora
+  animalBerkembangbiak: Ovipar
+  animalPeringatan: Aman
+  animalDescription: "Bergerak : terbang\r\nFun Fact : Capung dapat terbang ke segala
+    arah, baik menyamping, mundur bahkan terbang diam di satu titik selama beberapa
+    menit.\r"

@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: IkanMujair
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Ikan Muajair
   animalImage: {fileID: 21300000, guid: eab5f0e298a281b42b0304b6a81155a0, type: 3}
   animalSiluet: {fileID: 21300000, guid: b4033a554581ab541a0078382fe6667e, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: f0dc88d82fef40746b39f0138a77b468, type: 3}
+  animalName: Ikan Muajair
+  animalHabitat: Air
+  animalMakanan: Herbivora
+  animalBerkembangbiak: Ovipar
+  animalPeringatan: Aman
+  animalDescription: "Bergerak : berenang\r\nFun Fact : Ikan Mujair merupakan jenis
+    ikan yang memiliki kandungan gizi yang baik untuk pertumbuhan tubuh, pertumbuhan
+    otak, dan Kesehatan tulang.\r"

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eb7b1122771374189a52c01770c2a7, type: 3}
+  m_Name: Air Tawar
+  m_EditorClassIdentifier: 
+  soal1: 'Berikut ini mana yang bukan merupakan makanan buaya :'
+  soal2: 'Ikan mujair berkembang biak dengan cara :'
+  soal3: 'Ikan yang memiliki kemampuan untuk membersihkan akuarium adalah :'
+  soal4: 'Ikan gabus bergerak dengan cara :'
+  soal1_gambar: {fileID: 21300000, guid: dde10a932331e7a4ab90e7b2f3addaf1, type: 3}
+  soal2_gambar: {fileID: 21300000, guid: eab5f0e298a281b42b0304b6a81155a0, type: 3}
+  soal3_gambar: {fileID: 21300000, guid: 274990503d478ce41a984ed5d2a28079, type: 3}
+  soal4_gambar: {fileID: 21300000, guid: d640a8e4bf757dd4baa57b6d527148fa, type: 3}

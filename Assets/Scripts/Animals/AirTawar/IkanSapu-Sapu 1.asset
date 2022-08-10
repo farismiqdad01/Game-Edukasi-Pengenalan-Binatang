@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: IkanSapu-Sapu 1
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Ikan Sapu-sapu
   animalImage: {fileID: 21300000, guid: 274990503d478ce41a984ed5d2a28079, type: 3}
   animalSiluet: {fileID: 21300000, guid: 2b8f16b15e603584c9b10022e85441b5, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: f0dc88d82fef40746b39f0138a77b468, type: 3}
+  animalName: Ikan Sapu-sapu
+  animalHabitat: Air
+  animalMakanan: Herbivora
+  animalBerkembangbiak: Ovipar
+  animalPeringatan: Aman
+  animalDescription: "Bergerak : berenang\r\nFun Fact : Ikan Sapu-Sapu memiliki kemampuan
+    untuk membersihkan akuarium dari ganggang dan kotoran yang menempel pada dinding
+    akuarium menggunakan mulutnya yang berbentuk seperti alat hisap.\r"

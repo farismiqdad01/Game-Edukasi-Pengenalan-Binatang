@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eb7b1122771374189a52c01770c2a7, type: 3}
+  m_Name: Savana
+  m_EditorClassIdentifier: 
+  soal1: 'Manakah yang merupakan makanan Antelope :'
+  soal2: 'Warna yang dikeluarkan oleh kalajengking ketika malam hari adalah :'
+  soal3: 'Kelebihan macan tutul adalah :'
+  soal4: 'Berapa lama jerapah tidur dalam sehari :'
+  soal1_gambar: {fileID: 21300000, guid: 28ca582ea86aa8b4abaf955a068be122, type: 3}
+  soal2_gambar: {fileID: 21300000, guid: 33dd1f746ee61a94d8efcbf319ccad5a, type: 3}
+  soal3_gambar: {fileID: 21300000, guid: 6685e7bd232f12e439d84d1a33ba027d, type: 3}
+  soal4_gambar: {fileID: 21300000, guid: 5449e638060a70245ad8b9b9da8bc838, type: 3}

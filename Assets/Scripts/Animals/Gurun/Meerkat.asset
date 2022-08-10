@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: Meerkat
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Meerkat
   animalImage: {fileID: 21300000, guid: c2aef8c12ab94074c9e23ce426c881a4, type: 3}
   animalSiluet: {fileID: 21300000, guid: c3ce6dfa9dbe39947a191a1756af2e72, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 6e6ea8b660d96c7499564bd4dc6268d8, type: 3}
+  animalName: Meerkat
+  animalHabitat: Darat
+  animalMakanan: Omnivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Aman
+  animalDescription: "Berkaki : 4\r\nBergerak : berjalan\r\nFun Fact : Meerkat memakan
+    segalanya, kalajengking pun dia jadikan santapan. Oleh karena itu, meerkat kebal
+    dari racun kalajengking.\r"

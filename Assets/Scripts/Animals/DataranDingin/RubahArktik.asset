@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: RubahArktik
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Rubah Arktik
   animalImage: {fileID: 21300000, guid: 937cc0b6be6a1bf49804108ae376b7f9, type: 3}
   animalSiluet: {fileID: 21300000, guid: 5ef97ea1c15a47b4a9e191eb159cbf98, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 97eb23bc991e6c5428b2da1d061e268f, type: 3}
+  animalName: Rubah Arktik
+  animalHabitat: Darat
+  animalMakanan: Karnivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Berbahaya
+  animalDescription: "Berkaki : 4\r\nBergerak : berjalan\r\nFun Fact : Warna  bulu
+    rubah arktik dapat berubah menjadi cokelat atau biru keabu-abuan pada daerah
+    tertentu, hal ini merupakan bentuk adaptasi terhadap lingkungannya.\r"

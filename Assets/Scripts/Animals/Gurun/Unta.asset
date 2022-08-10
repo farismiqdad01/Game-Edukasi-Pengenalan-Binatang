@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: Unta
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Unta
   animalImage: {fileID: 21300000, guid: ace22fb23cf654341bd3439ff7983b87, type: 3}
   animalSiluet: {fileID: 21300000, guid: e99d3e0a3b974014d9a9481c99d3c6dc, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: eabe42d262cc13942851a299ef76caa7, type: 3}
+  animalName: Unta
+  animalHabitat: Darat
+  animalMakanan: Herbivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Aman
+  animalDescription: "Berkaki : 4\r\nBergerak : Berjalan\r\nFun Fact : Unta mampu
+    bepergian selama berminggu-minggu tanpa air. Hal ini dikarenakan unta menyimpan
+    cadangan air di punuknya.\r"

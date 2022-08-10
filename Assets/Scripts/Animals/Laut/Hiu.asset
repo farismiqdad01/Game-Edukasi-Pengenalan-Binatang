@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: Hiu
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Hiu
   animalImage: {fileID: 21300000, guid: f959435c42026c842b9835c450b44bdb, type: 3}
   animalSiluet: {fileID: 21300000, guid: 12807040ae35c4740b91b10844322136, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 8a976bf7b3e96f744afa36473e363c67, type: 3}
+  animalName: Hiu
+  animalHabitat: Air
+  animalMakanan: karnivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Berbahaya
+  animalDescription: "Bergerak : berenang\r\nFun Fact : Setelah masa kehamilan 13-16
+    bulan, seekor hiu betina dapat melahirkan 10 hingga 82 bayi ikan hiu kecil.\r"

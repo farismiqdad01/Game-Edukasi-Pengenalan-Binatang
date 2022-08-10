@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: Paus
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Paus
   animalImage: {fileID: 21300000, guid: 419005e36f7b43148b146f2fb222da80, type: 3}
   animalSiluet: {fileID: 21300000, guid: e43d1045216f06f44a890308a6c99113, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 071ac98b7baa1e843afb8e4f267416cb, type: 3}
+  animalName: Paus
+  animalHabitat: Air
+  animalMakanan: Karnivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Berbahaya
+  animalDescription: "Bergerak : berenang\r\nFun Fact : Seluruh bagian tubuh paus
+    berukuran besar, lidahnya seberat gajah, jantungnya seberat mobil, bahkan pembuluh
+    darahnya muat dilewati manusia.\r"

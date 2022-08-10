@@ -6,10 +6,12 @@ using UnityEngine;
 public class ScriptableAnimal : ScriptableObject
 {
     public bool caught;
-    public string animalName;
     public Sprite animalImage;
     public Sprite animalSiluet;
     public AudioClip animalSound;
+    [Header("Sifat Binatang")]
+    public string animalName;
+    public string animalHabitat, animalMakanan, animalBerkembangbiak, animalPeringatan;
     [TextArea] public string animalDescription;
 
 }

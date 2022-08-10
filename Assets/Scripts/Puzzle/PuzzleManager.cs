@@ -60,12 +60,8 @@ public class PuzzleManager : MonoBehaviour
         {
             EndMenu.SetActive(true);
             GameManager.instance.animal.caught = true;
+            GameManager.instance.animalCatched += 1;
         }
-    }
-    public void NextLevel()
-    {
-        PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level") + 1);
-        SceneManager.LoadScene("Game");
     }
 
     public void BacktoMenu()

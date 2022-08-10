@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: BurungPipit
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Burung Pipit
   animalImage: {fileID: 21300000, guid: e22fda90d1db9634ab075df56bff1acc, type: 3}
   animalSiluet: {fileID: 21300000, guid: b3306d3f10a05f34ebebc37bb503509e, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 4c8251ed34d7a7f4ab0cffbc33032cd8, type: 3}
+  animalName: Burung Pipit
+  animalHabitat: Udara
+  animalMakanan: Granivora
+  animalBerkembangbiak: Ovipar
+  animalPeringatan: Aman
+  animalDescription: "Berkaki : 2\r\nBergerak : terbang\r\nFun Fact : Burung pipit
+    tidak tahan cuaca dingin dan memerlukan tempat tinggal hangat untuk bertahan
+    hidup.\r"

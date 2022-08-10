@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Helper : MonoBehaviour
 {
+    [SerializeField] int cost = 10;
     [SerializeField] GameObject objectHelper;
     [SerializeField] Image imageHelper;
     [SerializeField] GameObject panelHelper;
@@ -35,10 +36,10 @@ public class Helper : MonoBehaviour
     }
     public void UnlockHelper()
     {
-        if (GameManager.instance.points >= 10)
+        if (GameManager.instance.points >= cost)
         {
             objectHelper.SetActive(true);
-            GameManager.instance.points -= 10;
+            GameManager.instance.points -= cost;
             AudioManager.instance.Unlock();
             panelHelper.SetActive(false);
         }

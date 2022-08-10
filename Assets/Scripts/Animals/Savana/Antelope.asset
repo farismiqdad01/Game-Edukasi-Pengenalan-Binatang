@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: Antelope
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Antelope
   animalImage: {fileID: 21300000, guid: 28ca582ea86aa8b4abaf955a068be122, type: 3}
   animalSiluet: {fileID: 21300000, guid: 0cf9b93647727d747a438125a226d6c2, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 49f0ad875b2149d4aaf456f0c7c921e3, type: 3}
+  animalName: Antelope
+  animalHabitat: Darat
+  animalMakanan: Herbivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Aman
+  animalDescription: "Berkaki : 4\r\nBergerak : berjalan\r\nFun Fact : Antelope berkerabat
+    dekat dengan kijang, sapi, lembu, banteng, kerbau, kambing, dan domba.\r"

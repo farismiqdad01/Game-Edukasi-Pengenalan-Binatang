@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: Lebah
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Lebah
   animalImage: {fileID: 21300000, guid: ec3c7beefbc37b64097005bc3e6f1354, type: 3}
   animalSiluet: {fileID: 21300000, guid: a06433ce5f36bb44190e5852397e67de, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 2160f1085f9271c4e858f17141eb3ce2, type: 3}
+  animalName: Lebah
+  animalHabitat: Udara
+  animalMakanan: Nektivora
+  animalBerkembangbiak: Ovipar
+  animalPeringatan: Berbahaya
+  animalDescription: "Bergerak : terbang\r\nFun Fact : Hampir seluruh waktu hidup
+    lebah pekerja hanya untuk menghasilkan madu\r"

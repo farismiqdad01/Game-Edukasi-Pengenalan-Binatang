@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: Jerapah
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Jerapah
   animalImage: {fileID: 21300000, guid: 5449e638060a70245ad8b9b9da8bc838, type: 3}
   animalSiluet: {fileID: 21300000, guid: c8e4f40a60acfe240a288db2384feba3, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 0c838cea0aa99f24ab592ce69b6eee2c, type: 3}
+  animalName: Jerapah
+  animalHabitat: Darat
+  animalMakanan: Herbivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Aman
+  animalDescription: "Berkaki : 4\r\nBergerak : berjalan\r\nFun Fact : Jerapah tidur
+    selama 20 menit dalam sehari.\r"

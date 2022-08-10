@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eb7b1122771374189a52c01770c2a7, type: 3}
+  m_Name: Laut
+  m_EditorClassIdentifier: 
+  soal1: 'Berapa lama lumba-lumba melakukan tidur siang :'
+  soal2: 'Berikut ini manakah binatang yang paling besar :'
+  soal3: 'Berapa jumlah kaki hiu :'
+  soal4: 'Anjing laut berkembang biak dengan cara : '
+  soal1_gambar: {fileID: 21300000, guid: 1deeec8f472859e48940f2d14988ed97, type: 3}
+  soal2_gambar: {fileID: 21300000, guid: 419005e36f7b43148b146f2fb222da80, type: 3}
+  soal3_gambar: {fileID: 21300000, guid: f959435c42026c842b9835c450b44bdb, type: 3}
+  soal4_gambar: {fileID: 21300000, guid: bf5e59923b1d39b41b605e08192e18a3, type: 3}

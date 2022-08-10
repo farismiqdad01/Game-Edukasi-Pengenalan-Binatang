@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: IkanWader
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Ikan Wader
   animalImage: {fileID: 21300000, guid: e9db7bebdb502d74aa5c2555b17af1c4, type: 3}
   animalSiluet: {fileID: 21300000, guid: b9adca49b88451d47a6c7bac60c0c447, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: f0dc88d82fef40746b39f0138a77b468, type: 3}
+  animalName: Ikan Wader
+  animalHabitat: Air
+  animalMakanan: Omnivora
+  animalBerkembangbiak: Ovipar
+  animalPeringatan: Aman
+  animalDescription: "Bergerak : berenang\r\nFun Fact : ikan wader merupakan salah
+    satu jenis ikan tawar yang memiliki kandungan protein, zat besi, dan omega 3
+    yang sangat tinggi.\r"

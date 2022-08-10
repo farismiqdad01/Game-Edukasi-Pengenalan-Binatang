@@ -12,9 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec923df18bf6f644be74caa09968821, type: 3}
   m_Name: Harimau
   m_EditorClassIdentifier: 
-  caught: 0
-  animalName: Harimau
+  caught: 1
   animalImage: {fileID: 21300000, guid: a4c64f69765c0a74c8b1f4bf0a7be00e, type: 3}
   animalSiluet: {fileID: 21300000, guid: 9019fa5fd65c4e644a8ec8b1ca41795c, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 3d21fa2e60f1def44a8ad63c366c7bc9, type: 3}
+  animalName: Harimau
+  animalHabitat: Darat
+  animalMakanan: Karnivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Berbahaya
+  animalDescription: "Berkaki : 4\r\nBergerak :  berjalan\r\nFun Fact : Harimau suka
+    sekali berenang dan handal dalam berenang. Harimau berenang karena ingin menurunkan
+    suhu tubuh ketika cuaca sedang panas.\r"

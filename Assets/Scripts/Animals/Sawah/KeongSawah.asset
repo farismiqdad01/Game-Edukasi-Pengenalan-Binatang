@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: KeongSawah
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Keong Sawah
   animalImage: {fileID: 21300000, guid: d7cea5561497c9246be5bb6cee5a8a3f, type: 3}
   animalSiluet: {fileID: 21300000, guid: 73e6939680750064195c1ff33e58d16e, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: 3770db93d8e87ad4fad0b891780474de, type: 3}
+  animalName: Keong Sawah
+  animalHabitat: Amfibi
+  animalMakanan: Herbivora
+  animalBerkembangbiak: Ovipar
+  animalPeringatan: Aman
+  animalDescription: "Bergerak : melata\r\nFun Fact : Keong sawah dapat hidup hingga
+    3 tahun jika suhu tempat tinggalnya tergolong rendah.\r"

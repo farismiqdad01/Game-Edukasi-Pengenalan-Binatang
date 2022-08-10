@@ -19,10 +19,10 @@ public class GameManager : MonoBehaviour
     [Header("Player")]
     [SerializeField] GameObject playerPrefab;
     [Header("Panel")]
-    [SerializeField] GameObject pausePanel;
-    [SerializeField] GameObject gameOverPanel;
+    [SerializeField] GameObject pausePanel, FinishPanel;
     [SerializeField] GameObject animalPrefab;
     [SerializeField] TextMeshProUGUI animalsCountText;
+    public int animalCatched;
     [Header("Puzzle")]
     [SerializeField] GameObject[] disable;
     private void Awake()
@@ -42,16 +42,17 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         points = 0;
+        animalCatched = 0;
         Time.timeScale = 1;
         GameObject[] animals = GameObject.FindGameObjectsWithTag("Animal");
-        animalsOnThisScene = animals.Length;
-        animalsCountText.text = animalsOnThisScene.ToString();
+        animalsOnThisScene = animals.Length; ;
     }
 
     // Update is called once per frame
     void Update()
     {
         pointText.text = points.ToString();
+        animalsCountText.text = animalCatched.ToString() + "/" + animalsOnThisScene.ToString();
     }
 
     public void PauseGame()
@@ -77,5 +78,11 @@ public class GameManager : MonoBehaviour
     {
         disable[0].SetActive(true);
         disable[1].SetActive(true);
+    }
+    public void FinishGame()
+    {
+        FinishPanel.SetActive(true);
+        PlayerPrefs.SetInt("LevelUnlocked", SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 0;
     }
 }

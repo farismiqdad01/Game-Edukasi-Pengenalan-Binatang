@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: MacanTutul
   m_EditorClassIdentifier: 
   caught: 0
-  animalName: Macan Tutul
   animalImage: {fileID: 21300000, guid: 6685e7bd232f12e439d84d1a33ba027d, type: 3}
   animalSiluet: {fileID: 21300000, guid: 6636ed2b536ab234598cc4b77bb99774, type: 3}
-  animalSound: {fileID: 0}
-  animalDescription: 
+  animalSound: {fileID: 8300000, guid: a589ddbfac45cad4a972bdd90b4b509f, type: 3}
+  animalName: Macan Tutul
+  animalHabitat: Darat
+  animalMakanan: Karnivora
+  animalBerkembangbiak: Vivipar
+  animalPeringatan: Berbahaya
+  animalDescription: "Berkaki : 4\r\nBergerak : berjalan\r\nFun Fact : Macan tutul
+    merupakan kucing besar yang mudah beradaptasi dengan lingkungannya.\r"
