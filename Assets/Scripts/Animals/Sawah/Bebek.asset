@@ -18,7 +18,7 @@ MonoBehaviour:
   animalSound: {fileID: 8300000, guid: 91f91d31ea231714da51b054753ff855, type: 3}
   animalName: Bebek
   animalHabitat: Darat
-  animalMakanan: Herbivora
+  animalMakanan: Omnivora
   animalBerkembangbiak: Ovipar
   animalPeringatan: Aman
   animalDescription: "Berkaki : 2\r\nBergerak : berjalan dan berenang\r\nFun Fact

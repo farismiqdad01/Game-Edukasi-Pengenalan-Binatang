@@ -16,7 +16,17 @@ MonoBehaviour:
   soal2: 'Kelebihan dari tikus adalah :'
   soal3: 'Burung pipit berkembang biak dengan cara : '
   soal4: 'Berapa jumlah kaki bebek :'
-  soal1_gambar: {fileID: 0}
-  soal2_gambar: {fileID: 0}
-  soal3_gambar: {fileID: 0}
-  soal4_gambar: {fileID: 0}
+  soal1_gambar: {fileID: 21300000, guid: e5b37c776b0d0e04a8e56a2373bca6d5, type: 3}
+  soal2_gambar: {fileID: 21300000, guid: 24cb25bfcc9b2c649bdad72deab92f20, type: 3}
+  soal3_gambar: {fileID: 21300000, guid: e22fda90d1db9634ab075df56bff1acc, type: 3}
+  soal4_gambar: {fileID: 21300000, guid: 8ec2f79cb189e2546b95ad82e0ff7337, type: 3}
+  hewan1: {fileID: 21300000, guid: 8ec2f79cb189e2546b95ad82e0ff7337, type: 3}
+  hewan2: {fileID: 21300000, guid: e22fda90d1db9634ab075df56bff1acc, type: 3}
+  hewan3: {fileID: 21300000, guid: e5b37c776b0d0e04a8e56a2373bca6d5, type: 3}
+  hewan4: {fileID: 21300000, guid: d7cea5561497c9246be5bb6cee5a8a3f, type: 3}
+  hewan5: {fileID: 21300000, guid: 24cb25bfcc9b2c649bdad72deab92f20, type: 3}
+  makanan1: {fileID: 21300000, guid: 8d4a78be90b2be6499ef187d23a158a3, type: 3}
+  makanan2: {fileID: 21300000, guid: 6c621f8aac0ba0c4ebdbccf54ef2b8b3, type: 3}
+  makanan3: {fileID: 21300000, guid: 3a2911e3e24b6aa42bbbeeb8c732d9f3, type: 3}
+  makanan4: {fileID: 21300000, guid: 637e9ee988c23ab4695c844042f92dd2, type: 3}
+  makanan5: {fileID: 21300000, guid: 86f80c7b00d70524d95f999458307b96, type: 3}

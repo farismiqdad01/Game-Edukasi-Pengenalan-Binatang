@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec923df18bf6f644be74caa09968821, type: 3}
   m_Name: Capung
   m_EditorClassIdentifier: 
-  caught: 0
+  caught: 1
   animalImage: {fileID: 21300000, guid: e5b37c776b0d0e04a8e56a2373bca6d5, type: 3}
   animalSiluet: {fileID: 21300000, guid: a6996bb902fdee048affb8906e2ef217, type: 3}
   animalSound: {fileID: 8300000, guid: ad66a21a380c99f4ebd35b38eae36d60, type: 3}

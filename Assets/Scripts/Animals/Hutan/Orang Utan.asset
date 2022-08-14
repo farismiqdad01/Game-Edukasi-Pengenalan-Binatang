@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec923df18bf6f644be74caa09968821, type: 3}
   m_Name: Orang Utan
   m_EditorClassIdentifier: 
-  caught: 1
+  caught: 0
   animalImage: {fileID: 21300000, guid: 8abfbca586116634fbf81285a0da4f69, type: 3}
   animalSiluet: {fileID: 21300000, guid: edaeeb001194b744ca507aae25792459, type: 3}
   animalSound: {fileID: 8300000, guid: ad277009d98ac3244a5c8df304a57c94, type: 3}

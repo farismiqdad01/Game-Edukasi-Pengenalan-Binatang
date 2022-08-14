@@ -33,6 +33,7 @@ public class MovingPlatform : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             other.transform.parent = transform;
+            other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
     }
     private void OnTriggerExit2D(Collider2D other)

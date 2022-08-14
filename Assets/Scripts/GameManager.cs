@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -17,10 +18,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI pointText;
     public int points;
     [Header("Player")]
-    [SerializeField] GameObject playerPrefab;
+    public Vector3 checkpoint;
+    public int health;
+    [SerializeField] Slider healthSlider;
     [Header("Panel")]
-    [SerializeField] GameObject pausePanel, FinishPanel;
-    [SerializeField] GameObject animalPrefab;
+    [SerializeField] GameObject pausePanel, finishPanel, gameOverPanel;
     [SerializeField] TextMeshProUGUI animalsCountText;
     public int animalCatched;
     [Header("Puzzle")]
@@ -41,6 +43,7 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
+        health = 5;
         points = 0;
         animalCatched = 0;
         Time.timeScale = 1;
@@ -52,7 +55,16 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         pointText.text = points.ToString();
+        healthSlider.value = health;
+        if (health <= 0)
+        {
+            GameOver();
+        }
         animalsCountText.text = animalCatched.ToString() + "/" + animalsOnThisScene.ToString();
+        if (animalCatched == animalsOnThisScene)
+        {
+            FinishGame();
+        }
     }
 
     public void PauseGame()
@@ -81,8 +93,22 @@ public class GameManager : MonoBehaviour
     }
     public void FinishGame()
     {
-        FinishPanel.SetActive(true);
-        PlayerPrefs.SetInt("LevelUnlocked", SceneManager.GetActiveScene().buildIndex + 1);
+        Camera.main.GetComponent<AudioSource>().Stop();
+        finishPanel.SetActive(true);
+        Time.timeScale = 0;
+        int currentLevel = SceneManager.GetActiveScene().buildIndex;
+        if (currentLevel >= PlayerPrefs.GetInt("LevelUnlocked"))
+        {
+            PlayerPrefs.SetInt("LevelUnlocked", currentLevel + 1);
+        }
+    }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void GameOver()
+    {
+        gameOverPanel.SetActive(true);
         Time.timeScale = 0;
     }
 }

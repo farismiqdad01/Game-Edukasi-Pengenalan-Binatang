@@ -9,6 +9,7 @@ public class QuizManager2 : MonoBehaviour
     public static QuizManager2 instance;
     public int switchCount;
     [SerializeField] GameObject hasilPanel;
+    [SerializeField] GameObject QuizPanel;
     int onCount = 0;
     [SerializeField] TextMeshProUGUI score;
     [SerializeField] TextMeshProUGUI hasilConfirmation;
@@ -28,17 +29,18 @@ public class QuizManager2 : MonoBehaviour
     }
     public void Done()
     {
-        if (onCount == switchCount)
-        {
-            hasilConfirmation.text = "Lanjutkan";
-            AudioManager.instance.Win();
-        }
-        else
-        {
-            hasilConfirmation.text = "Ulangi";
-            AudioManager.instance.Lose();
-        }
-        onCount = onCount * 100 / switchCount;
-        score.text = onCount.ToString();
+        // if (onCount == switchCount)
+        // {
+        //     hasilConfirmation.text = "Lanjutkan";
+        //     AudioManager.instance.Win();
+        // }
+        // else
+        // {
+        //     hasilConfirmation.text = "Ulangi";
+        //     AudioManager.instance.Lose();
+        // }
+        // onCount = onCount * 100 / switchCount;
+        // score.text = onCount.ToString();
+        QuizPanel.SetActive(true);
     }
 }

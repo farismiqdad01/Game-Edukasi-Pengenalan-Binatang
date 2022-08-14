@@ -14,7 +14,9 @@ public class PlayerControls : MonoBehaviour
     Collider2D col;
     [SerializeField] float moveSpeed = 5f;
     [Header("Joystick")]
-    [SerializeField] FixedJoystick joystick;
+    [SerializeField] FloatingJoystick joystick;
+    [SerializeField] bool isUnderWater = false;
+    [SerializeField] bool isSnowing;
     private void Awake()
     {
         input = new PlayerInput();
@@ -79,15 +81,41 @@ public class PlayerControls : MonoBehaviour
             sr.flipX = move.x < 0;
         }
         anim.SetBool("run", move.x != 0);
-        rb.velocity = new Vector2(move.x * moveSpeed, rb.velocity.y);
+        if (isUnderWater)
+        {
+            anim.speed = 1.5f;
+            rb.gravityScale = 0.5f;
+            rb.velocity = new Vector2(move.x * 3, rb.velocity.y);
+        }
+        else if (isSnowing)
+        {
+            if (move.x != 0)
+            {
+                rb.velocity = new Vector2(move.x * moveSpeed, rb.velocity.y);
+            }
+            else
+            {
+                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y);
+            }
+        }
+        else
+        {
+            rb.velocity = new Vector2(move.x * moveSpeed, rb.velocity.y);
+        }
     }
     /// <summary>
     /// fungsi digunakan untuk melompat pada player
     /// fungsi ini berjalan jika player menekan tombol jump dan menyentuh layer ground
     /// </summary>
-    public void Jump(bool jump = true)
+    public void Jump(bool jump)
     {
-        if (IsGrounded() && jump)
+
+        if (isUnderWater && jump)
+        {
+            rb.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+            anim.SetTrigger("jump");
+        }
+        else if (IsGrounded() && jump && !isUnderWater)
         {
             rb.AddForce(Vector2.up * 15, ForceMode2D.Impulse);
             anim.SetTrigger("jump");
@@ -107,9 +135,10 @@ public class PlayerControls : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
 
-        if (other.gameObject.tag == "Spike")
+        if (other.gameObject.tag == "Spike" && GameManager.instance.health > 0)
         {
-            this.gameObject.transform.position = startPosition;
+            this.gameObject.transform.position = GameManager.instance.checkpoint;
+            GameManager.instance.health -= 1;
         }
     }
 }

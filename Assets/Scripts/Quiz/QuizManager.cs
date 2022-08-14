@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 public class QuizManager : MonoBehaviour
 {
     public static QuizManager instance;
+    [SerializeField] ScriptableSoal soal;
+    [SerializeField] TextMeshProUGUI[] soaltxt;
+    [SerializeField] Sprite[] gambarSoal;
     [SerializeField] TextMeshProUGUI score;
     [SerializeField] GameObject[] questions;
     [SerializeField] GameObject panelHasil;
@@ -20,6 +23,10 @@ public class QuizManager : MonoBehaviour
     {
         instance = this;
         questions[0].SetActive(true);
+        soaltxt[0].text = soal.soal1;
+        soaltxt[1].text = soal.soal2;
+        soaltxt[2].text = soal.soal3;
+        soaltxt[3].text = soal.soal4;
     }
 
     // Update is called once per frame

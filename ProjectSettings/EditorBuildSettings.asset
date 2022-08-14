@@ -10,18 +10,33 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Maps/Hutan.unity
-    guid: aacc946bbdd2d55419def33ff3424d3f
+    guid: 08e268312e506a446a7a4332d227f859
+  - enabled: 1
+    path: Assets/Scenes/Maps/Sawah.unity
+    guid: 56bebe9bc66fae845bb7a3414c9f26ed
   - enabled: 1
     path: Assets/Scenes/Maps/Gurun.unity
     guid: aa059298a50cd5f40932b9abd37ee8ca
   - enabled: 1
+    path: Assets/Scenes/Maps/Savana.unity
+    guid: 8fdefa759e53953498c4f47b6d15786e
+  - enabled: 1
+    path: Assets/Scenes/Maps/Kebun.unity
+    guid: 4930710eb14a2f7489bc8b1db1580eaa
+  - enabled: 1
+    path: Assets/Scenes/Maps/AirTawar.unity
+    guid: 8c2d12f14ae6d5549b3518e4c1647cf5
+  - enabled: 1
+    path: Assets/Scenes/Maps/Laut.unity
+    guid: bb8b030d979abb94aa17c9016a1ae751
+  - enabled: 1
     path: Assets/Scenes/Maps/Salju.unity
-    guid: d4294f8b709ff864e87655659e288ff8
+    guid: 19b7752b82f0cb74a83f9be03f08fef5
   - enabled: 1
     path: Assets/Scenes/Quiz2.unity
     guid: f2830ac965a4a864c85460ab9fdacfc4
   - enabled: 1
-    path: Assets/Scenes/Quiz.unity
+    path: Assets/Scenes/Quiz/Quiz.unity
     guid: ecadfffa4df609b46a196f995dbc5e85
   - enabled: 1
     path: Assets/Scenes/Puzzle.unity

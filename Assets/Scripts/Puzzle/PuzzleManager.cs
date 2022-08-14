@@ -60,7 +60,6 @@ public class PuzzleManager : MonoBehaviour
         {
             EndMenu.SetActive(true);
             GameManager.instance.animal.caught = true;
-            GameManager.instance.animalCatched += 1;
         }
     }
 
@@ -71,6 +70,7 @@ public class PuzzleManager : MonoBehaviour
     public void CloseScene()
     {
         SceneManager.UnloadSceneAsync("Puzzle");
+        GameManager.instance.animalCatched += 1;
         GameManager.instance.BacktoGame();
     }
 }
