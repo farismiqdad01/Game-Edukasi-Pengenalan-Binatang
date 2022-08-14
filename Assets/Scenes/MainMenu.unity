@@ -4035,7 +4035,7 @@ PrefabInstance:
       objectReference: {fileID: 478996401}
     - target: {fileID: 298948850022084958, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Kebun
+      value: QuizSavana
       objectReference: {fileID: 0}
     - target: {fileID: 6038326335975259866, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_Pivot.x
@@ -4574,7 +4574,7 @@ PrefabInstance:
       objectReference: {fileID: 478996401}
     - target: {fileID: 298948850022084958, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Savana
+      value: QuizGurun
       objectReference: {fileID: 0}
     - target: {fileID: 6038326335975259866, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_Pivot.x
@@ -7347,7 +7347,7 @@ PrefabInstance:
       objectReference: {fileID: 478996401}
     - target: {fileID: 298948850022084958, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Gurun
+      value: QuizSawah
       objectReference: {fileID: 0}
     - target: {fileID: 6038326335975259866, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_Pivot.x
@@ -9162,7 +9162,7 @@ PrefabInstance:
       objectReference: {fileID: 478996401}
     - target: {fileID: 298948850022084958, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Salju
+      value: QuizLaut
       objectReference: {fileID: 0}
     - target: {fileID: 6038326335975259866, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_Pivot.x
@@ -11727,7 +11727,7 @@ PrefabInstance:
       objectReference: {fileID: 478996401}
     - target: {fileID: 298948850022084958, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Laut
+      value: QuizAirTawar
       objectReference: {fileID: 0}
     - target: {fileID: 6038326335975259866, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_Pivot.x
@@ -11840,7 +11840,7 @@ PrefabInstance:
       objectReference: {fileID: 478996401}
     - target: {fileID: 298948850022084958, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Sawah
+      value: QuizHutan
       objectReference: {fileID: 0}
     - target: {fileID: 6038326335975259866, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_Pivot.x
@@ -12522,7 +12522,7 @@ PrefabInstance:
       objectReference: {fileID: 478996401}
     - target: {fileID: 298948850022084958, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: AirTawar
+      value: QuizKebun
       objectReference: {fileID: 0}
     - target: {fileID: 6038326335975259866, guid: 08b50629344031c4eac2ccfa19a0e49d, type: 3}
       propertyPath: m_Pivot.x

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
@@ -9,7 +10,7 @@ public class QuizManager : MonoBehaviour
     public static QuizManager instance;
     [SerializeField] ScriptableSoal soal;
     [SerializeField] TextMeshProUGUI[] soaltxt;
-    [SerializeField] Sprite[] gambarSoal;
+    [SerializeField] Image[] gambarSoal;
     [SerializeField] TextMeshProUGUI score;
     [SerializeField] GameObject[] questions;
     [SerializeField] GameObject panelHasil;
@@ -27,12 +28,13 @@ public class QuizManager : MonoBehaviour
         soaltxt[1].text = soal.soal2;
         soaltxt[2].text = soal.soal3;
         soaltxt[3].text = soal.soal4;
+        gambarSoal[0].sprite = soal.soal1_gambar;
+        gambarSoal[1].sprite = soal.soal2_gambar;
+        gambarSoal[2].sprite = soal.soal3_gambar;
+        gambarSoal[3].sprite = soal.soal4_gambar;
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
     public void Answer(bool isCorrect)
     {
         answered++;
@@ -68,7 +70,7 @@ public class QuizManager : MonoBehaviour
             AudioManager.instance.Lose();
         }
     }
-    public void Confirmation()
+    public void Confirmation(string scene)
     {
         if (correct < 4)
         {
@@ -76,7 +78,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(scene);
         }
     }
 
