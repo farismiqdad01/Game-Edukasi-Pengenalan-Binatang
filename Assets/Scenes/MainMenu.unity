@@ -1151,6 +1151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2340728399804238670, guid: 50a1f031abceb874d9dba259a5ba506b, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2340728399804238673, guid: 50a1f031abceb874d9dba259a5ba506b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -8372,6 +8376,7 @@ GameObject:
   - component: {fileID: 1440239162}
   - component: {fileID: 1440239161}
   - component: {fileID: 1440239160}
+  - component: {fileID: 1440239163}
   m_Layer: 5
   m_Name: BtnPlay
   m_TagString: Untagged
@@ -8396,7 +8401,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 117}
+  m_AnchoredPosition: {x: 0, y: 117.00998}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1440239160
@@ -8505,6 +8510,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440239158}
   m_CullTransparentMesh: 1
+--- !u!95 &1440239163
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440239158}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c502b213f264658418d9589603ad4434, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1440827913 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7588294391670104438, guid: 53e683a8f9bbac84ea034cfd515c5106, type: 3}
@@ -9390,8 +9415,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 72556c2c4452b8e4ab15d292deb5c77c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -10344,7 +10369,7 @@ PrefabInstance:
     - target: {fileID: -3127648549883550405, guid: 53e683a8f9bbac84ea034cfd515c5106, type: 3}
       propertyPath: animal
       value: 
-      objectReference: {fileID: 11400000, guid: 80411ab88fc453e4aaaa761178a52f44, type: 2}
+      objectReference: {fileID: 11400000, guid: 9e5f83a61203d084aa7ee1a167045ced, type: 2}
     - target: {fileID: 4514133091517132533, guid: 53e683a8f9bbac84ea034cfd515c5106, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2

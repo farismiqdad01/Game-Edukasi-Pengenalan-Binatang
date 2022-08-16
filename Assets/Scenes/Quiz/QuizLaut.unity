@@ -959,10 +959,10 @@ PrefabInstance:
     - target: {fileID: 7517850181625872658, guid: 919de7245860aeb48bf9fa8b9bdf2bce, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ed69771de17be0b41bfb6b894be33457, type: 3}
+      objectReference: {fileID: 21300000, guid: f15ea57a50572ef44a2429252feda823, type: 3}
     - target: {fileID: 8951788351756307332, guid: 919de7245860aeb48bf9fa8b9bdf2bce, type: 3}
       propertyPath: m_Name
-      value: Herb
+      value: Karn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 919de7245860aeb48bf9fa8b9bdf2bce, type: 3}

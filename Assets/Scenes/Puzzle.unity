@@ -1294,6 +1294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!331 &4149640607187296596
@@ -1900,6 +1901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!210 &4149640607425779640
@@ -2226,6 +2228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!1 &4149640607545492690
@@ -2287,6 +2290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!331 &4149640607545492700
@@ -2692,6 +2696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!4 &4149640607809064546
@@ -2958,6 +2963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!4 &4149640607963136420
@@ -3265,6 +3271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!212 &4149640608130501996
@@ -3601,6 +3608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!114 &4149640608194558180
@@ -3615,6 +3623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!212 &4149640608194558232
@@ -4235,6 +4244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!210 &4149640608404673578
@@ -4281,6 +4291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!212 &4149640608404673588
@@ -4640,6 +4651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!212 &4149640608538234644
@@ -4976,6 +4988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!61 &4149640608627944869
@@ -5016,6 +5029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!331 &4149640608627944920
@@ -5473,6 +5487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!4 &4149640608793398892
@@ -5623,6 +5638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!210 &4149640608824681944
@@ -6033,6 +6049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!1 &4149640609079613480
@@ -6163,6 +6180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!212 &4149640609109026972
@@ -6354,6 +6372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!212 &4149640609129119532
@@ -6690,6 +6709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!1 &4149640609147853056
@@ -6871,6 +6891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!4 &4149640609149485836
@@ -7146,6 +7167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!4 &4149640609174622444
@@ -7548,6 +7570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!210 &4149640609242449500
@@ -7828,6 +7851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa732f51650b534aa4023289e8f77ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleClip: {fileID: 8300000, guid: 93fcabb48cd8f644c906aacdfc216829, type: 3}
   InRightPosition: 0
   Selected: 0
 --- !u!331 &4149640609317317500

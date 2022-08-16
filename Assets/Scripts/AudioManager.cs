@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
     AudioSource audioSource;
-    [SerializeField] AudioClip buttonClick, point, openPuzzle, jump, walk, win, lose, reject, unlock;
+    [SerializeField] AudioClip buttonClick, point, openPuzzle, jump, walk, win, lose, reject, unlock, jumpWater;
     private void Awake()
     {
         if (instance != null)
@@ -30,6 +30,10 @@ public class AudioManager : MonoBehaviour
     public void PlayerJump()
     {
         audioSource.PlayOneShot(jump);
+    }
+    public void PlayerJumpWater()
+    {
+        audioSource.PlayOneShot(jumpWater);
     }
     public void PlayerPoint()
     {

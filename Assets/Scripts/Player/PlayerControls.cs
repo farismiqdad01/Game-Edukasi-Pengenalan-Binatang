@@ -114,6 +114,7 @@ public class PlayerControls : MonoBehaviour
         {
             rb.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
             anim.SetTrigger("jump");
+            AudioManager.instance.PlayerJumpWater();
         }
         else if (IsGrounded() && jump && !isUnderWater)
         {
@@ -139,6 +140,7 @@ public class PlayerControls : MonoBehaviour
         {
             this.gameObject.transform.position = GameManager.instance.checkpoint;
             GameManager.instance.health -= 1;
+            Handheld.Vibrate();
         }
     }
 }

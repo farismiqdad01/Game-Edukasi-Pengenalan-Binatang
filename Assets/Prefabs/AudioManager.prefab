@@ -49,9 +49,12 @@ MonoBehaviour:
   point: {fileID: 8300000, guid: 19da38d735b782b4a87efde87a3d9538, type: 3}
   openPuzzle: {fileID: 0}
   jump: {fileID: 8300000, guid: a48cac137b4c8f7449808294c424f310, type: 3}
-  walk: {fileID: 0}
+  walk: {fileID: 8300000, guid: 14a30caf78bd492438735d6c7456f167, type: 3}
   win: {fileID: 8300000, guid: 2629a9df31040384d9e382d012377007, type: 3}
   lose: {fileID: 8300000, guid: 140162563ae6eb341bdcd6394ada40a0, type: 3}
+  reject: {fileID: 0}
+  unlock: {fileID: 8300000, guid: 854ed7816f82a1340bc31b3c12ebbff9, type: 3}
+  jumpWater: {fileID: 8300000, guid: 610afa08a9d33ef49bf7ba1716071452, type: 3}
 --- !u!82 &2340728399804238670
 AudioSource:
   m_ObjectHideFlags: 0

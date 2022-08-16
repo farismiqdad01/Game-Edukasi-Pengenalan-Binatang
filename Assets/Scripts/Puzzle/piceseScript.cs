@@ -5,6 +5,7 @@ using UnityEngine.Rendering;
 
 public class piceseScript : MonoBehaviour
 {
+    [SerializeField] AudioClip puzzleClip;
     private Vector3 RightPosition;
     public bool InRightPosition;
     public bool Selected;
@@ -24,6 +25,7 @@ public class piceseScript : MonoBehaviour
                 {
                     transform.position = RightPosition;
                     InRightPosition = true;
+                    Camera.main.GetComponent<AudioSource>().PlayOneShot(puzzleClip);
                     GetComponent<SortingGroup>().sortingOrder = 0;
                     PuzzleManager.Instance.PlacedPieces++;
                 }

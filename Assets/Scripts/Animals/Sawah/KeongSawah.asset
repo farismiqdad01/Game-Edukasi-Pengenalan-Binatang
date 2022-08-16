@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec923df18bf6f644be74caa09968821, type: 3}
   m_Name: KeongSawah
   m_EditorClassIdentifier: 
-  caught: 1
+  caught: 0
   animalImage: {fileID: 21300000, guid: d7cea5561497c9246be5bb6cee5a8a3f, type: 3}
   animalSiluet: {fileID: 21300000, guid: 73e6939680750064195c1ff33e58d16e, type: 3}
   animalSound: {fileID: 8300000, guid: 3770db93d8e87ad4fad0b891780474de, type: 3}

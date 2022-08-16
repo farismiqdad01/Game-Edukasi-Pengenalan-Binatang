@@ -23496,14 +23496,14 @@ MonoBehaviour:
   m_Follow: {fileID: 1848746333}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5.095948
+    OrthographicSize: 4.9615383
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.109519, y: 1}
+    m_SensorSize: {x: 2.1666667, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -24727,7 +24727,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.095948
+  orthographic size: 4.9615383
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -27295,7 +27295,7 @@ PrefabInstance:
     - target: {fileID: 6074974647156878220, guid: ddd8bfce51a312449ad6a8816a35ae4d, type: 3}
       propertyPath: animal
       value: 
-      objectReference: {fileID: 11400000, guid: 80411ab88fc453e4aaaa761178a52f44, type: 2}
+      objectReference: {fileID: 11400000, guid: 5db6e35efd5ddf44e8187f044f0c6ef7, type: 2}
     - target: {fileID: 6074974647156878322, guid: ddd8bfce51a312449ad6a8816a35ae4d, type: 3}
       propertyPath: m_RootOrder
       value: 4
