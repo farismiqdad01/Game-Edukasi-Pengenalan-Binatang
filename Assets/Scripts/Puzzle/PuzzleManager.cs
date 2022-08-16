@@ -19,7 +19,7 @@ public class PuzzleManager : MonoBehaviour
     void Start()
     {
         animalImagePuzzle = GameManager.instance.animal.animalImage;
-        for (int i = 0; i < 24; i++)
+        for (int i = 0; i < 8; i++)
         {
             GameObject.Find("Piece (" + i + ")").transform.Find("Puzzle").GetComponent<SpriteRenderer>().sprite = animalImagePuzzle;
         }
@@ -56,7 +56,7 @@ public class PuzzleManager : MonoBehaviour
             Vector3 MousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             SelectedPiece.transform.position = new Vector3(MousePoint.x, MousePoint.y, 0);
         }
-        if (PlacedPieces == 24)
+        if (PlacedPieces == 8)
         {
             EndMenu.SetActive(true);
             GameManager.instance.animal.caught = true;

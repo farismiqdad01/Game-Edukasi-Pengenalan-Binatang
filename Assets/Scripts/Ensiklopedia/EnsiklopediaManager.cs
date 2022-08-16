@@ -42,42 +42,42 @@ public class EnsiklopediaManager : MonoBehaviour
         if (animal.animalMakanan == "Karnivora")
         {
             makananImage.sprite = karnivora;
-            Makanan.text = "Pemakan Daging";
+            Makanan.text = "Pemakan Daging (Karnivora)";
         }
         else if (animal.animalMakanan == "Herbivora")
         {
             makananImage.sprite = herbivora;
-            Makanan.text = "Pemakan Tumbuhan";
+            Makanan.text = "Pemakan Tumbuhan (Herbivora)";
         }
         else if (animal.animalMakanan == "Omnivora")
         {
             makananImage.sprite = omnivora;
-            Makanan.text = "Pemakan Segala";
+            Makanan.text = "Pemakan Segala (Omnivora)";
         }
         else if (animal.animalMakanan == "Nektivora")
         {
             makananImage.sprite = nektivora;
-            Makanan.text = "Pemakan Nektar";
+            Makanan.text = "Pemakan Nektar (Nektivora)";
         }
         else
         {
             makananImage.sprite = granivora;
-            Makanan.text = "Pemakan Biji-bijian";
+            Makanan.text = "Pemakan Biji-bijian (Granivora)";
         }
         if (animal.animalBerkembangbiak == "Ovipar")
         {
             kembangBiakImage.sprite = ovipar;
-            Berkembangbiak.text = "Bertelur";
+            Berkembangbiak.text = "Bertelur (Ovipar)";
         }
         else if (animal.animalBerkembangbiak == "Vivipar")
         {
             kembangBiakImage.sprite = vivipar;
-            Berkembangbiak.text = "Beranak";
+            Berkembangbiak.text = "Beranak (Vivipar)";
         }
         else
         {
             kembangBiakImage.sprite = ovovivipar;
-            Berkembangbiak.text = "Bertelur dan Beranak";
+            Berkembangbiak.text = "Bertelur dan Beranak (Ovovivipar)";
         }
         if (animal.animalPeringatan == "Aman")
         {

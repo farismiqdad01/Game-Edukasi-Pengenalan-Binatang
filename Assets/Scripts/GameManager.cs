@@ -95,6 +95,8 @@ public class GameManager : MonoBehaviour
     {
         Camera.main.GetComponent<AudioSource>().Stop();
         finishPanel.SetActive(true);
+        GameObject.Find("PauseBtn").SetActive(false);
+        GameObject.Find("Controller").SetActive(false);
         Time.timeScale = 0;
         int currentLevel = SceneManager.GetActiveScene().buildIndex;
         if (currentLevel >= PlayerPrefs.GetInt("LevelUnlocked"))
@@ -109,6 +111,8 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameOverPanel.SetActive(true);
+        GameObject.Find("PauseBtn").SetActive(false);
+        GameObject.Find("Controller").SetActive(false);
         Time.timeScale = 0;
     }
 }
