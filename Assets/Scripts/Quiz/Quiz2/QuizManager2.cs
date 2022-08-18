@@ -8,11 +8,9 @@ public class QuizManager2 : MonoBehaviour
 {
     public static QuizManager2 instance;
     public int switchCount;
-    [SerializeField] GameObject hasilPanel;
+    [SerializeField] GameObject puzzleRope;
     [SerializeField] GameObject QuizPanel;
     int onCount = 0;
-    [SerializeField] TextMeshProUGUI score;
-    [SerializeField] TextMeshProUGUI hasilConfirmation;
     private void Awake()
     {
         instance = this;
@@ -23,7 +21,7 @@ public class QuizManager2 : MonoBehaviour
         onCount = onCount + point;
         if (onCount == switchCount)
         {
-            hasilPanel.SetActive(true);
+            puzzleRope.SetActive(false);
             Done();
         }
     }
@@ -42,5 +40,13 @@ public class QuizManager2 : MonoBehaviour
         // onCount = onCount * 100 / switchCount;
         // score.text = onCount.ToString();
         QuizPanel.SetActive(true);
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    public void GotoMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

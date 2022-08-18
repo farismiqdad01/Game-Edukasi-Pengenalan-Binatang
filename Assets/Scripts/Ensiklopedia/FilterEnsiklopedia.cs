@@ -9,6 +9,15 @@ public class FilterEnsiklopedia : MonoBehaviour
     private void Awake()
     {
         animal = GetComponent<AnimalProfile>().animal;
+        if (PlayerPrefs.GetString(animal.name) == "true")
+        {
+            gameObject.SetActive(true);
+            animal.caught = true;
+        }
+    }
+    private void Start()
+    {
+
     }
     private void OnDisable()
     {

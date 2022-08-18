@@ -1,14 +1,18 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 public class PuzzleManager : MonoBehaviour
 {
     public static PuzzleManager Instance;
     [SerializeField] Sprite animalImagePuzzle;
-
+    [Header("End Puzzle")]
     public GameObject EndMenu;
+    [SerializeField] Image animalImageEnd;
+    [Header("Puzzle")]
+
     public GameObject SelectedPiece;
     int OIL = 1;
     public int PlacedPieces = 0;
@@ -19,6 +23,7 @@ public class PuzzleManager : MonoBehaviour
     void Start()
     {
         animalImagePuzzle = GameManager.instance.animal.animalImage;
+        animalImageEnd.sprite = GameManager.instance.animal.animalImage;
         for (int i = 0; i < 8; i++)
         {
             GameObject.Find("Piece (" + i + ")").transform.Find("Puzzle").GetComponent<SpriteRenderer>().sprite = animalImagePuzzle;
@@ -60,6 +65,7 @@ public class PuzzleManager : MonoBehaviour
         {
             EndMenu.SetActive(true);
             GameManager.instance.animal.caught = true;
+            PlayerPrefs.SetString(GameManager.instance.animal.name, "true");
         }
     }
 

@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Xml.Serialization;
 
 [CreateAssetMenu(fileName = "ScriptableAnimal", menuName = "GameEdukasi/ScriptableAnimal")]
 public class ScriptableAnimal : ScriptableObject
 {
-    public bool caught;
+    [XmlElement("caught")] public bool caught;
     public Sprite animalImage;
     public Sprite animalSiluet;
     public AudioClip animalSound;

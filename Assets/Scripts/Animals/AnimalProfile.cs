@@ -18,7 +18,7 @@ public class AnimalProfile : MonoBehaviour
         {
             animalSprite.sprite = animal.animalSiluet;
         }
-        else if (animal.caught == true)
+        if (animal.caught == true)
         {
             animalName.text = animal.animalName;
             animalImage.sprite = animal.animalImage;
