@@ -4787,10 +4787,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '.:   Selamat Kamu telah menemukan semua hewan di habitat ini   :.
+  m_text: '.:   Selamat kamu telah menemukan semua binatang di habitat ini   :.
 
     jangan
-    lupa cek hewanmu di menu Ensiklopedia
+    lupa cek binatangmu di menu Ensiklopedia
 
     :)'
   m_isRightToLeft: 0
@@ -7089,10 +7089,10 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -5.8587055, y: 41.983692}
-      - {x: -5.8308964, y: -0.58049774}
-      - {x: 40.634903, y: 0.068309784}
-      - {x: 40.57007, y: -11.931984}
-      - {x: 76.6263, y: -11.081639}
+      - {x: -6.1663, y: -2.0898209}
+      - {x: 37.951668, y: -1.7764168}
+      - {x: 38.05453, y: -11.931984}
+      - {x: 75.78778, y: -11.920152}
       - {x: 90.84062, y: 0.52905035}
       - {x: 125.62836, y: 0.98874044}
       - {x: 125.50736, y: 43.35956}

@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    private GameObject mainMenu;
-    private GameObject ensiklopedia;
-    private GameObject gamePlay;
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);

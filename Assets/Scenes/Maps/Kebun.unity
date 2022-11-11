@@ -13608,10 +13608,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '.:   Selamat Kamu telah menemukan semua hewan di habitat ini   :.
+  m_text: '.:   Selamat kamu telah menemukan semua binatang di habitat ini   :.
 
     jangan
-    lupa cek hewanmu di menu Ensiklopedia
+    lupa cek binatangmu di menu Ensiklopedia
 
     :)'
   m_isRightToLeft: 0
@@ -15176,14 +15176,14 @@ MonoBehaviour:
   m_Follow: {fileID: 1848746333}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 4.9615383
+    OrthographicSize: 8.0625
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1666667, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -15200,7 +15200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117343710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.00000023841858, z: -10}
+  m_LocalPosition: {x: 0, y: -0.00000047683716, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16354,7 +16354,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.9615383
+  orthographic size: 8.0625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -16378,7 +16378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364153178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.00000023841858, z: -10}
+  m_LocalPosition: {x: 0, y: -0.00000047683716, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

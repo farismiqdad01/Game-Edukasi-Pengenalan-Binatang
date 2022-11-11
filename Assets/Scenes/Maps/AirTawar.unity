@@ -22066,10 +22066,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '.:   Selamat Kamu telah menemukan semua hewan di habitat ini   :.
+  m_text: '.:   Selamat kamu telah menemukan semua binatang di habitat ini   :.
 
     jangan
-    lupa cek hewanmu di menu Ensiklopedia
+    lupa cek binatangmu di menu Ensiklopedia
 
     :)'
   m_isRightToLeft: 0
@@ -23515,14 +23515,14 @@ MonoBehaviour:
   m_Follow: {fileID: 1848746333}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 4.9615383
+    OrthographicSize: 8.0625
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1666667, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -24746,7 +24746,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.9615383
+  orthographic size: 8.0625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
