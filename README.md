@@ -1,4 +1,4 @@
-# Game-Edukasi-Pengenalan-Hewan
+# Game-Edukasi-Pengenalan-Binatang
 using unity ver 2021.3.4f1
 
 Semua update game ada pada link :
