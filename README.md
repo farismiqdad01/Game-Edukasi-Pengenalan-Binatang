@@ -13,6 +13,6 @@ Alias : edukasi [deprecated]
 
 Password : edukasi [deprecated]
 
-alias : new edukasi
+alias : newedukasi
 
-password : new edukasi
+password : newedukasi
