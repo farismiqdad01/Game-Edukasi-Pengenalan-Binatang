@@ -6,6 +6,13 @@ Semua update game ada pada link :
 
 # Keystore
 Password : elixir2000
+
 Project Key :
-Alias : edukasi 
-Password : edukasi
+
+Alias : edukasi [deprecated]
+
+Password : edukasi [deprecated]
+
+alias : new edukasi
+
+password : new edukasi
